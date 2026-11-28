@@ -2,8 +2,8 @@
 {
     public class Address
     {
-        public string Country { get; set; } = default!;
-        public string Street { get; set; } = default!;
-        public int BuildingNumber { get; set; }
+        public string street { get; set; } = default!;
+        public string city { get; set; } = default!;
+        public int buildingNumber { get; set; }
     }
 }

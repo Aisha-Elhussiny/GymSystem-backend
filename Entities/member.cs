@@ -1,10 +1,9 @@
 ﻿namespace GymSystem_backend.Entities
 {
-    public class Member  : GymUser
+    public class Member  : gymUser
     {
-       // public DateTime joinDate;
-        public string? Photo { get; set; } 
-        public ICollection<MemberShip> MemberSubscription { get; set; } = default!;
+        public DateTime joinDate;
+        public string photo { get; set; } = default!;
 
 
     }

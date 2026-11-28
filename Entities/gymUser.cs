@@ -2,13 +2,13 @@
 
 namespace GymSystem_backend.Entities
 {
-    public class GymUser : BaseEntity
+    public class gymUser : BaseEntity
     {
         public string Name { get; set; } = default!;
         public string Email { get; set; } = default!;   
-        public int Phone { get; set; } = default!;
-        public DateOnly DateOfBirth { get; set; }
-        public Gender Gender { get; set; }
+        public int phoneNumber { get; set; }
+        public DateOnly dateOfBirth;
+        public gender Gender { get; set; }
         public Address Address { get; set; } = default!;
     }
 }
