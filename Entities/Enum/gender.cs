@@ -1,6 +1,6 @@
 ﻿namespace GymSystem_backend.Entities.Enum
 {
-    public enum gender
+    public enum Gender
     {
         male =1,
         female

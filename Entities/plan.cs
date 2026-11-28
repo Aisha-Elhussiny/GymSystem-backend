@@ -4,13 +4,13 @@ namespace GymSystem_backend.Entities
 {
     public class Plan : BaseEntity
     {
-        public plansName name ;
-        public string description { get; set; } = default!;
-        public int durationDays { get; set; }
-        public int price { get; set; }
-        public bool isActive { get; set; }
+        public string Name { get; set; } = default!;
+        public string Description { get; set; } = default!;
+        public int DurationDays { get; set; }
+        public decimal Price { get; set; }
+        public bool IsActive { get; set; }
 
-
+        public ICollection<MemberShip> PlanSubscriptions { get; set; } = default!;
 
 
     }
